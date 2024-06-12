@@ -1,30 +1,71 @@
-.menu{
-    display: block;
-    position: fixed;
-    top: 0;
-    right: 0;
-    padding: 1rem;
-    z-index: 30;
+.menu {
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 30;
+  font-size: 1.5rem;
+}
+
+.shadow {
+  filter: drop-shadow(0px 0px 3px rgb(146, 45, 255));
+}
+
+@keyframes anim {
+  from {
+    opacity: 0;
+    transform: translateX(25px);
   }
 
-  .menuContent {
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.9);
-    color: white;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  to {
+    opacity: 1;
+    transform: translateX(-10px);
   }
+}
 
-  .menuContent a {
-    margin: 1rem;
-    font-size: 2rem;
-    color: white;
-    text-decoration: none;
-  }
+.anim {
+  animation: anim 500ms ease;
+}
+
+.closeButton {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 30;
+  font-size: 1.5rem;
+  background-color: transparent;
+  filter: drop-shadow(4px 3px 2px rgb(146, 45, 255));
+  transform: translateX(-10px);
+}
+
+.principalButton {
+  background-color: transparent;
+  filter: drop-shadow(4px 3px 2px rgb(146, 45, 255));
+}
+
+.menuContent {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.menuContent a {
+  filter: drop-shadow(4px 3px 2px rgb(146, 45, 255));
+  margin: 1rem;
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+}
+
+.buttonX {
+  background-color: transparent;
+}
