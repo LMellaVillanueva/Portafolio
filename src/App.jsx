@@ -6,6 +6,7 @@ import TimeLine from './components/timeLine/TimeLine';
 import AboutMe from './components/aboutMe/AboutMe';
 import Technologies from './components/technologies/Technologies';
 import Footer from './components/footer/Footer';
+import BurguerMenu from './components/burguerMenu/BurguerMenu';
 
 function App() {
   const [time, setTime] = useState(false);
@@ -61,6 +62,9 @@ function App() {
                 <a href="#contacto" onClick={(event) => handleNavigation(event, 'contacto')}>Contacto</a>
               </div>
             </nav>
+            <div id='burguerMenu'>
+              <BurguerMenu handleNavigation={handleNavigation} />
+            </div>
           </>
         )}
         <Landing />

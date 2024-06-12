@@ -34,6 +34,10 @@
   animation: hide 200ms ease-in-out forwards;
 }
 
+.menu{
+  display: none;
+}
+
 @keyframes show {
   from {
     opacity: 0;
@@ -60,16 +64,26 @@
   filter: drop-shadow(0px 0px 3px rgb(146, 45, 255));
 }
 
-@media screen and (min-width: 300px) and (max-width: 400px) {
+@media screen and (max-width: 800px) {
   #navBar {
-    position: initial;
-    margin-top: 5%;
-    font-size: 0.7em;
+    display: none;
   }
 }
 
-@media screen and (min-width: 300px) and (max-width: 1000px) {
+@media screen and (min-width: 801px) {
+  #burguerMenu {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 700px) {
   .upButton {
-    width: 16%;
+    width: 17%;
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 1000px) {
+  .upButton {
+    width: 12%;
   }
 }
