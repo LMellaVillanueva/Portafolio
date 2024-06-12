@@ -30,8 +30,8 @@ export const Header = () => {
                 </div>
             </div>
             <div className={`flex justify-center items-center gap-5 lg:gap-10 font-sans ${styles.cv}`}>
-                <a href="../../../public/LucasMellaCV.pdf" className={`p-3 rounded-sm bg-gradient-to-b from-black via-gray-900 to-purple-900 font-sans hover:scale-105 transition-all duration-150 border border-purple-500 hover:text-purple-300 ${styles.shadow}`}>Visualiza mi CV!</a>
-                <a href="../../../public/LucasMellaCV.pdf" download className={`hover:scale-105 transition-all duration-150 hover:text-purple-400 p-3 border border-purple-500 rounded-sm bg-gradient-to-b from-black via-gray-900 to-purple-900 ${styles.shadow}`}><FileDownloadIcon /></a>
+                <a href="/LucasMellaCV.pdf" className={`p-3 rounded-sm bg-gradient-to-b from-black via-gray-900 to-purple-900 font-sans hover:scale-105 transition-all duration-150 border border-purple-500 hover:text-purple-300 ${styles.shadow}`}>Visualiza mi CV!</a>
+                <a href="/LucasMellaCV.pdf" download className={`hover:scale-105 transition-all duration-150 hover:text-purple-400 p-3 border border-purple-500 rounded-sm bg-gradient-to-b from-black via-gray-900 to-purple-900 ${styles.shadow}`}><FileDownloadIcon /></a>
             </div>
         </>
     );
