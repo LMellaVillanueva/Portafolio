@@ -22,7 +22,7 @@ const BurguerMenu = ({ handleNavigation }) => {
   }, [isOpen])
 
   return (
-    <div className={styles.menu}>
+    <div className={` font-sansita ${styles.menu}`}>
       <div className={styles.shadow}>
         <button className={styles.principalButton} onClick={() => setIsOpen(true)}>
           ☰

@@ -26,7 +26,7 @@ const Technologies = () => {
                 {/* Borde header */}
                 <div className={`absolute h-full inset-0 border border-purple-600 ${styles.borde}`}></div>
                 <div className={`flex flex-col text-center p-4 items-center font-sans`}>
-                    <h1 className={`my-3 text-4xl ${styles.text}`}>Tecnologías</h1>
+                    <h1 className={`my-3 text-4xl font-sansita ${styles.text}`}>Tecnologías</h1>
                     <div className='flex flex-wrap gap-12 mt-4 p-4 w-full items-center justify-center'>
                         {technologies.map((tech, index) => (
                             <div key={index} className={`flex ${styles.shadowContainer}`}>
