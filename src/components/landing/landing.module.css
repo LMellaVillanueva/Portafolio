@@ -22,10 +22,6 @@
   animation: fadeIn 2s ease-in-out forwards;
 }
 
-.fadeInDos {
-  animation: fadeIn 2s ease-in-out forwards;
-}
-
 .bg {
   animation: fadeIn 2s ease-in-out forwards;
 
@@ -37,10 +33,6 @@
 }
 
 .fadeOut {
-  animation: fadeOut 1s ease-out forwards;
-}
-
-.fadeOutDos {
   animation: fadeOut 1s ease-out forwards;
 }
 

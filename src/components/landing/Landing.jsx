@@ -20,30 +20,16 @@ export const Landing = () => {
         if (!fadeIn) {
             setTimeout(() => {
                 setFadeOut(true)
-            }, 3500);
+            }, 4000);
         }
 
         setFadeOut(false)
-
-        if (!fadeOut) {
-            setTimeout(() => {
-                setFadeInDos(true);
-            }, 4500);
-        }
-
-        setFadeInDos(false);
-
-        if (!fadeInDos) {
-            setTimeout(() => {
-                setFadeOutDos(true);
-            }, 7500);
-        }
     }, [])
 
     useEffect(() => {
         setTimeout(() => {
             setBg(true)
-        }, 8500);
+        }, 5000);
     }, [])
 
     return (
@@ -56,8 +42,7 @@ export const Landing = () => {
                     </div>
                 )}
                 <div className={`relative inset-0 ${styles.container}`}>
-                    <h1 className={`${styles.text} ${fadeIn ? styles.fadeIn : ''} ${fadeOut ? styles.fadeOut : ''} text-4xl text-center text-white p-4 font-sans`}>Te damos la Bienvenida</h1>
-                    <h1 className={`${styles.text} ${fadeInDos ? styles.fadeInDos : ''} ${fadeOutDos ? styles.fadeOutDos : ''} text-4xl text-start text-white p-4 font-sans`}>A una experiencia única e inigualable...</h1>
+                    <h1 className={`${styles.text} ${fadeIn ? styles.fadeIn : ''} ${fadeOut ? styles.fadeOut : ''} text-4xl text-center text-white p-4 font-sans`}>¡Te doy la bienvenida!</h1>
                 </div>
             </div>
         </>
