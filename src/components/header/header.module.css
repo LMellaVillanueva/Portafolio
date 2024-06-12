@@ -1,0 +1,72 @@
+.shadowContainer {
+    filter: drop-shadow(0px 0px 10px rgb(123, 0, 255));
+}
+
+.logos {
+    filter: drop-shadow(0px 0px 6px rgb(146, 45, 255));
+}
+
+.texto {
+    filter: drop-shadow(0px 0px 1px rgb(146, 45, 255));
+}
+
+.shadow:hover {
+    filter: drop-shadow(0px 0px 10px rgb(146, 45, 255));
+}
+
+/* @media screen and (min-width: 300px) and (max-width: 800px) {
+    .allContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .allContainer div {
+        align-items: center;
+        gap: 0px;
+        width: 85%;
+        padding: 5px;
+    }
+
+    .presentacion {
+        margin-top: -50%;
+        margin-right: 4.5%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text h2 {
+        font-size: 1rem;
+    }
+
+    .text h1 {
+        font-size: 1.7rem;
+    }
+
+    .text p {
+        font-size: 1rem;
+    }
+
+    .presentacion img {
+        height: 40%;
+        width: 50%;
+    }
+
+    .logosContainer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .logosContainer a {
+        padding: 0px;
+        width: 15%;
+    }
+
+    .cv {
+        margin-top: -5%;
+        display: flex;
+        margin-left: -5%;
+    }
+} */

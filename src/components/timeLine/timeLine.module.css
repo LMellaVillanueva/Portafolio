@@ -1,0 +1,17 @@
+.shadow {
+    filter: drop-shadow(0px 0px 5px rgb(146, 45, 255));
+}
+
+.titulo {
+    filter: drop-shadow(8px 5px 3px rgb(146, 45, 255));
+}
+
+.icons {
+    filter: drop-shadow(0px 0px 4px rgb(146, 45, 255));
+}
+
+@media screen and (min-width: 1000px) {
+    .allContainer div {
+        background-image: none;
+    }
+}
