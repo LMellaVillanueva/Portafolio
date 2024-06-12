@@ -10,63 +10,50 @@
     filter: drop-shadow(0px 0px 1px rgb(146, 45, 255));
 }
 
-.shadow:hover {
-    filter: drop-shadow(0px 0px 10px rgb(146, 45, 255));
+@keyframes anim {
+    from {
+        opacity: 0;
+        transform: translateX(15rem);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
-/* @media screen and (min-width: 300px) and (max-width: 800px) {
-    .allContainer {
-        display: flex;
-        flex-direction: column;
+@keyframes border {
+    0% {
+        filter: drop-shadow(0px 0px 5px rgb(181, 20, 255));
     }
 
-    .allContainer div {
-        align-items: center;
-        gap: 0px;
-        width: 85%;
-        padding: 5px;
+    25% {
+        filter: drop-shadow(0px 0px 15px rgb(181, 20, 255));
+
     }
 
-    .presentacion {
-        margin-top: -50%;
-        margin-right: 4.5%;
-        display: flex;
-        flex-direction: column;
+    50% {
+        filter: drop-shadow(0px 0px 10px rgb(62, 0, 91));
     }
 
-    .text h2 {
-        font-size: 1rem;
+    75% {
+        filter: drop-shadow(0px 0px 15px rgb(181, 20, 255));
+
     }
 
-    .text h1 {
-        font-size: 1.7rem;
+    100% {
+        filter: drop-shadow(0px 0px 5px rgb(174, 0, 255));
     }
+}
 
-    .text p {
-        font-size: 1rem;
-    }
+.anim {
+    animation: anim 2.5s ease;
+}
 
-    .presentacion img {
-        height: 40%;
-        width: 50%;
-    }
+.border {
+    animation: border 8s infinite ease-in-out, anim 2.5s ease;
+}
 
-    .logosContainer {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-    }
-
-    .logosContainer a {
-        padding: 0px;
-        width: 15%;
-    }
-
-    .cv {
-        margin-top: -5%;
-        display: flex;
-        margin-left: -5%;
-    }
-} */
+.shadow {
+    animation: border 5s infinite ease;
+}

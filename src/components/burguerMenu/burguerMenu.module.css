@@ -23,6 +23,38 @@
   }
 }
 
+@keyframes burguerContent {
+  from {
+    opacity: 0;
+    transform: translateY(-10rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.landing {
+  animation: burguerContent 300ms ease;
+}
+
+.proyectos {
+  animation: burguerContent 400ms ease;
+}
+
+.aboutMe {
+  animation: burguerContent 500ms ease;
+}
+
+.tech {
+  animation: burguerContent 600ms ease;
+}
+
+.contact {
+  animation: burguerContent 700ms ease;
+}
+
 .anim {
   animation: anim 500ms ease;
 }
