@@ -18,7 +18,7 @@ const [anim, setAnim] = useState(false);
             <div className={`flex flex-col lg:flex-row items-center lg:justify-center gap-7 lg:gap-4 h-fit lg:h-2/4 w-screen mb-8 lg:mb-0 mt-20 lg:mt-44 bg-gradient-to-b from-black via-purple-950 ${styles.allContainer}`}>
                 <div className={`z-10 flex flex-col lg:flex-row p-3 lg:p-8 justify-center items-center lg:gap-20 w-10/12 lg:w-7/12 border rounded-sm border-purple-500 font-sans ${styles.shadowContainer} ${anim ? styles.anim : ''} ${anim ? styles.border : ''}`}>
                     <div className={`flex flex-col lg:text-start ${styles.text}`}>
-                        <h2 className={`lg:text-xl text-white ${styles.texto}`}>Eyyy! Soy</h2>
+                        <h2 className={`lg:text-xl text-white ${styles.texto}`}>Hola! Soy</h2>
                         <h1 className={`mb-3 mt-3 text-3xl text-white ${styles.texto}`}>Lucas Mella,</h1>
                         <p className={`lg:text-xl text-white ${styles.texto}`}>un FullStack Web Developer lleno de pasión por la buena organización, el perfeccionismo y en adquirir buenas prácticas.</p>
                     </div>

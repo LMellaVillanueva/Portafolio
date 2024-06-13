@@ -15,7 +15,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setTime(true);
-    }, 5000);
+    }, 5500);
   }, []);
 
   useEffect(() => {
@@ -55,11 +55,11 @@ function App() {
           <>
             <nav id='navBar' className={`relative -mb-10 z-20 top-5 w-full text-white flex justify-center font-sans text-xl shadow`}>
               <div className='flex space-x-10 p-4'>
-                <a href="#landing" onClick={(event) => handleNavigation(event, 'landing')}>Inicio</a>
-                <a href="#proyectos" onClick={(event) => handleNavigation(event, 'proyectos')}>Proyectos</a>
-                <a href="#aboutMe" onClick={(event) => handleNavigation(event, 'aboutMe')}>Sobre Mí</a>
-                <a href="#technologies" onClick={(event) => handleNavigation(event, 'technologies')}>Tecnologías</a>
-                <a href="#contacto" onClick={(event) => handleNavigation(event, 'contacto')}>Contacto</a>
+                <a href="#landing" onClick={(event) => handleNavigation(event, 'landing')} className={` ${time ? 'inicio' : ''}`}>Inicio</a>
+                <a href="#proyectos" onClick={(event) => handleNavigation(event, 'proyectos')} className={` ${time ? 'proyectos' : ''}`}>Proyectos</a>
+                <a href="#aboutMe" onClick={(event) => handleNavigation(event, 'aboutMe')} className={` ${time ? 'about' : ''}`}>Sobre Mí</a>
+                <a href="#technologies" onClick={(event) => handleNavigation(event, 'technologies')} className={` ${time ? 'tech' : ''}`}>Tecnologías</a>
+                <a href="#contacto" onClick={(event) => handleNavigation(event, 'contacto')} className={` ${time ? 'contact' : ''}`}>Contacto</a>
               </div>
             </nav>
             <div id='burguerMenu'>
