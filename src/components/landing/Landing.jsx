@@ -6,8 +6,6 @@ import Header from '../header/Header';
 export const Landing = () => {
     const [fadeIn, setFadeIn] = useState(false);
     const [fadeOut, setFadeOut] = useState(false);
-    const [fadeInDos, setFadeInDos] = useState(false);
-    const [fadeOutDos, setFadeOutDos] = useState(false);
     const [bg, setBg] = useState(false);
 
     useEffect(() => {
@@ -20,7 +18,7 @@ export const Landing = () => {
         if (!fadeIn) {
             setTimeout(() => {
                 setFadeOut(true)
-            }, 4000);
+            }, 3500);
         }
 
         setFadeOut(false)
@@ -29,7 +27,7 @@ export const Landing = () => {
     useEffect(() => {
         setTimeout(() => {
             setBg(true)
-        }, 5000);
+        }, 4500);
     }, [])
 
     return (

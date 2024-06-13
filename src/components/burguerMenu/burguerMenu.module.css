@@ -35,6 +35,28 @@
   }
 }
 
+@keyframes burguer {
+  from {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes onClose {
+  from {
+    opacity: 1;
+  }
+  
+  to {
+    opacity: 0;
+  }
+}
+
 .landing {
   animation: burguerContent 300ms ease;
 }
@@ -73,6 +95,12 @@
 .principalButton {
   background-color: transparent;
   filter: drop-shadow(4px 3px 2px rgb(146, 45, 255));
+  animation: burguer 0.8s ease;
+}
+
+.onClose{
+  animation: onClose 1s ease;
+
 }
 
 .menuContent {
