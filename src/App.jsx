@@ -15,7 +15,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setTime(true);
-    }, 5500);
+    }, 4500);
   }, []);
 
   useEffect(() => {

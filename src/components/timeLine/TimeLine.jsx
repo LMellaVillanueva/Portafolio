@@ -16,7 +16,7 @@ const TimeLine = () => {
             <h1 className={`relative lg:p-10 pb-5 text-center ${styles.shadow}`}>Mis Proyectos</h1>
 
                 {/* Línea de tiempo */}
-                <div className='absolute left-1/2 transform -translate-x-1/2 h-full border border-purple-600'></div>
+                <div className={`absolute left-1/2 transform -translate-x-1/2 h-full border border-purple-600 ${styles.shadow}`}></div>
                 {/* CorteWorld */}
                 <div className={`relative lg:left-52 lg:top-20 my-10 lg:w-5/12 border lg:border-0 border-r-2 border-purple-500 bg-gradient-to-tr from-black to-slate-900 pb-5 lg:pb-0 ${styles.corteWorld}`}>
                     <div className={`flex flex-col lg:flex-row justify-center gap-12 items-center lg:m-2 p-5 w-full ${styles.cwTitulo}`}>

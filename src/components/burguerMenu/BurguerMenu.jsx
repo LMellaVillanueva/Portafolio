@@ -4,10 +4,8 @@ import styles from './burguerMenu.module.css';
 const BurguerMenu = ({ handleNavigation }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [animation, setAnimation] = useState(false);
-  const [render, setRender] = useState(false);
 
   useEffect(() => {
-    setRender(true);
     if (isOpen) {
       setAnimation(true);
     }
