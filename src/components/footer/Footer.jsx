@@ -68,13 +68,13 @@ const Footer = () => {
                     </form>
                     <div className={`flex flex-col gap-5 lg:w-1/5 items-center ${styles.logos}`}>
                         <h2 className={`font-sans text-xl ${styles.label}`}>Redes Sociales</h2>
-                        <a className={`w-12 ${styles.logos}`} href="https://wa.me/981314078">
+                        <a className={`w-12 ${styles.logos}`} href="https://wa.me/981314078" target='_blank'>
                             <img src={wsp} alt="Wsp" />
                         </a>
-                        <a className={`w-12 ${styles.logos}`} href="https://www.linkedin.com/in/lucas-mella-947989231/">
+                        <a className={`w-12 ${styles.logos}`} href="https://www.linkedin.com/in/lucas-mella-947989231/" target='_blank'>
                             <img src={linkedIN} alt="LinkedIn" />
                         </a>
-                        <a className={`w-12 ${styles.logos}`} href="https://github.com/LMellaVillanueva" >
+                        <a className={`w-12 ${styles.logos}`} href="https://github.com/LMellaVillanueva" target='_blank' >
                             <img src={gh} alt="GitHub" />
                         </a>
                     </div>

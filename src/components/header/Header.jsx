@@ -25,19 +25,19 @@ const [anim, setAnim] = useState(false);
                     <img src={selfie} alt="Retrato" className={`w-44 lg:w-56`} />
                 </div>
                 <div className={`flex lg:flex-col gap-3 w-fit ${styles.logos} ${anim ? styles.anim : ''}`}>
-                    <a className={styles.logos} href="https://wa.me/981314078">
+                    <a className={styles.logos} href="https://wa.me/981314078" target='_blank'>
                         <img src={wsp} alt="Wsp" className='w-10 lg:w-11' />
                     </a>
-                    <a className={styles.logos} href="https://www.linkedin.com/in/lucas-mella-947989231/">
+                    <a className={styles.logos} href="https://www.linkedin.com/in/lucas-mella-947989231/" target='_blank'>
                         <img src={linkedIN} alt="LinkedIn" className='w-10 lg:w-11' />
                     </a>
-                    <a className={styles.logos} href="https://github.com/LMellaVillanueva" >
+                    <a className={styles.logos} href="https://github.com/LMellaVillanueva" target='_blank' >
                         <img src={gh} alt="GitHub" className='w-10 lg:w-11' />
                     </a>
                 </div>
             </div>
             <div className={`flex justify-center items-center gap-5 lg:gap-10 font-sans ${styles.cv} ${anim ? styles.anim : ''} ${anim ? styles.shadow : ''}`}>
-                <a href="/LucasMellaCV.pdf" className={`p-3 rounded-sm bg-gradient-to-b from-black via-gray-900 to-purple-900 font-sans hover:scale-105 transition-all duration-150 border border-purple-500 hover:text-purple-300`}>Visualiza mi CV!</a>
+                <a href="/LucasMellaCV.pdf" target='_blank' className={`p-3 rounded-sm bg-gradient-to-b from-black via-gray-900 to-purple-900 font-sans hover:scale-105 transition-all duration-150 border border-purple-500 hover:text-purple-300`}>Visualiza mi CV!</a>
                 <a href="/LucasMellaCV.pdf" download className={`hover:scale-105 transition-all duration-150 hover:text-purple-400 p-3 border border-purple-500 rounded-sm bg-gradient-to-b from-black via-gray-900 to-purple-900`}><FileDownloadIcon /></a>
             </div>
         </>

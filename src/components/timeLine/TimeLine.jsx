@@ -25,7 +25,7 @@ const TimeLine = () => {
                     </div>
                     <div className={`flex flex-col gap-3 items-center lg:items-start`}>
                         <p className={`text-center text-lg w-11/12 lg:w-4/6 ${styles.shadow}`}>Página web E-Commerce enfocada en StreetWear. Puedes iniciar sesión con Google (Firebase), comprar tus productos del carrito con WebPay, filtrar a tu conveniencia, etc. La cuenta administrador tiene total control sobre la página.</p>
-                        <a href="https://corteworld.vercel.app" className="w-5/6 mr-4 lg:mr-0 lg:w-2/3">
+                        <a href="https://corteworld.vercel.app" target='_blank' className="w-5/6 mr-4 lg:mr-0 lg:w-2/3">
                             <img src={cw} alt="CorteWorld" className={`transition-all duration-300 hover:scale-105 hover:shadow-black hover:shadow-xl m-2 border-2 rounded border-purple-700 hover:border-opacity-0 hover:translate-x-2`} />
                         </a>
                         <div className={`flex mt-4 w-full justify-center lg:w-fit pl:0 lg:pl-24 gap-2 ${styles.icons}`}>
@@ -46,7 +46,7 @@ const TimeLine = () => {
                     </div>
                     <div className={`flex flex-col items-center gap-3 lg:ml-36`}>
                         <p className={`text-center w-11/12 lg:w-4/6 text-lg ${styles.shadow}`}>Proyecto personal. Aplicación web enfocada a organizar tus tareas diarias para mantener tu tiempo ordenado. Incluye un borrado lógico que te permite reintegrar tus tareas eliminadas. CRUD completo.</p>
-                        <a href="https://streamable.com/d73wk4" className="w-5/6 mr-4 lg:mr-0 lg:w-2/3">
+                        <a href="https://streamable.com/d73wk4" target='_blank' className="w-5/6 mr-4 lg:mr-0 lg:w-2/3">
                             <img src={ta} alt="TaskApp" className={`transition-all duration-300 hover:scale-105 hover:shadow-black hover:shadow-xl m-2 border-2 rounded border-purple-500 hover:border-opacity-0 hover:translate-x-2`} />
                         </a>
                         <div className={`flex mt-4 w-full justify-center lg:w-fit pl:0 lg:pl-4 gap-2 ${styles.icons}`}>
@@ -68,7 +68,7 @@ const TimeLine = () => {
                     </div>
                     <div className={`flex flex-col items-center lg:items-start lg:ml-10 gap-3`}>
                         <p className={`text-center text-lg w-11/12 lg:w-9/12 ${styles.shadow}`}>Proyecto académico con metodología SCRUM. Página orientada para reservar canchas y poder jugar con amigos a distintos deportes. Inicia sesión con Google, reserva canchas con MercadoPago y disfruta con amigos un buen rato.</p>
-                        <a href="https://vimeo.com/910164046" className="w-5/6 mr-4 lg:mr-0 lg:w-2/3">
+                        <a href="https://vimeo.com/910164046" target='_blank' className="w-5/6 mr-4 lg:mr-0 lg:w-2/3">
                             <img src={mp} alt="MatchingProyect" className={`transition-all duration-300 hover:scale-105 hover:shadow-black hover:shadow-xl m-2 border-2 rounded border-purple-500 hover:border-opacity-0 hover:translate-x-2`} />
                         </a>
                         <div className={`flex justify-center mt-4 w-fit lg:pl-14 gap-2 ${styles.icons}`}>
@@ -91,7 +91,7 @@ const TimeLine = () => {
                     </div>
                     <div className={`flex flex-col items-center lg:items-end gap-3`}>
                         <p className={`text-center text-lg w-11/12 lg:w-9/12 ${styles.shadow}`}>Aplicación que muestra información sobre los países utilizando una API. Puedes buscar países, ver sus detalles, realizar filtrados y crear actividades por un formulario con validaciones.</p>
-                        <a href="https://vimeo.com/905831112" className="w-5/6 mr-4 lg:mr-0 lg:w-2/3">
+                        <a href="https://vimeo.com/905831112" target='_blank' className="w-5/6 mr-4 lg:mr-0 lg:w-2/3">
                             <img src={pi} alt="MatchingProyect" className={`transition-all duration-300 hover:scale-105 hover:shadow-black hover:shadow-xl m-2 border-2 rounded border-purple-500 hover:border-opacity-0 hover:translate-x-2`} />
                         </a>
                         <div className={`flex justify-center lg:pr-6 mt-4 w-fit gap-2 ${styles.icons}`}>
