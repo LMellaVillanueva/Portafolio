@@ -63,7 +63,7 @@ const Footer = () => {
                         <label className={`font-sans text-xl ${styles.label}`}>Email</label>
                         <input type="email" name="from_email" value={info.from_email} onChange={handleChange} className={`bg-purple-950 border-b-2 border-purple-500 rounded-sm w-1/2 font-sans bg-gradient-to-b from-gray-900 to-purple-950 `} />
                         <label className={`font-sans text-xl ${styles.label}`}>Mensaje</label>
-                        <textarea name="message" value={info.message} onChange={handleChange} className={`bg-purple-950 border-b-2 border-purple-500 rounded-sm w-full font-sans bg-gradient-to-b from-gray-900 to-purple-950 `} />
+                        <textarea name="message" value={info.message} onChange={handleChange} rows={4} cols={50} className={`bg-purple-950 border-b-2 border-purple-500 rounded-sm w-full font-sans bg-gradient-to-b from-gray-900 to-purple-950 `} />
                         <button type="submit" value="Send" className={`mt-3 rounded-sm bg-gradient-to-b from-black via-gray-900 to-purple-900 font-sans hover:scale-105 hover:translate-x-1 transition-all duration-150 border border-purple-500 hover:text-purple-300 disabled:bg-gradient-to-t disabled:from-gray-500 disabled:text-slate-400 disabled:border-opacity-0 disabled:shadow-none disabled:translate-x-0 disabled:scale-100 ${styles.button}`} disabled={!info.from_name.length || !info.from_email.length || !info.message.length} >Enviar</button>
                     </form>
                     <div className={`flex flex-col gap-5 lg:w-1/5 items-center ${styles.logos}`}>
