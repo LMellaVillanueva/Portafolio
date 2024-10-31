@@ -1,5 +1,5 @@
 import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJsSquare } from 'react-icons/fa';
-import { SiTypescript, SiPostgresql, SiNextdotjs, SiNestjs, SiTailwindcss, SiRedux, SiGit, SiExpress, SiSequelize } from 'react-icons/si';
+import { SiTypescript, SiPostgresql, SiNextdotjs, SiNestjs, SiTailwindcss, SiRedux, SiGit, SiExpress, SiSequelize, SiMysql } from 'react-icons/si';
 import styles from './technologies.module.css';
 
 const Technologies = () => {
