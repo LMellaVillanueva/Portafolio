@@ -23,21 +23,21 @@ const TimeLine = () => {
   return (
     <div
       id="proyectos"
-      className={`flex flex-col font-sans bg-gradient-to-b from-black to-purple-950 overflow-hidden pt-10 pb-20 ${styles.allContainer}`}
+      className={`flex flex-col font-sans bg-gradient-to-b from-black to-purple-950 overflow-hidden pt-10 md:pt-0 lg:pt-10 pb-20 ${styles.allContainer}`}
     >
       <h1 className={`lg:p-10 lg:pb-28 pb-14 text-center w-screen ${styles.shadow}`}>
         Mis Proyectos
       </h1>
 
-      <div className="flex flex-col md:flex-row gap-3 md:gap-0 w-full">
+      <div className="flex flex-col lg:flex-row gap-8 lg:gap-0 w-full">
         {/* lado izquierdo */}
-        <div className="flex flex-col gap-6 md:gap-0">
+        <div className="flex flex-col gap-10 lg:gap-0">
           {/* CorteWorld */}
           <div
-            className={`lg:border-0 border-2 border-purple-500 bg-gradient-to-tr from-black to-slate-900 p-4 md:pt-60 ${styles.corteWorld}`}
+            className={`lg:border-0 border-2 border-purple-500 bg-gradient-to-tr from-black to-slate-900 p-4 lg:pt-60 ${styles.corteWorld}`}
           >
             <div
-              className={`flex flex-col lg:flex-row justify-center md:justify-end gap-12 items-center lg:m-2 p-5 ${styles.cwTitulo}`}
+              className={`flex flex-col lg:flex-row justify-center lg:justify-end gap-12 items-center lg:m-2 p-5 ${styles.cwTitulo}`}
             >
               <h2
                 className={`text-center text-3xl lg:text-4xl font-sansita ${styles.titulo}`}
@@ -83,8 +83,8 @@ const TimeLine = () => {
           {/* end of CorteWorld */}
 
           {/* MatchingProyect */}
-          <div className="lg:border-0 border-2 border-purple-500 bg-gradient-to-tl from-black to-slate-900 p-4 md:pt-48">
-            <div className="flex flex-col lg:flex-row justify-center md:justify-end gap-12 items-center lg:m-2 p-5 ">
+          <div className="lg:border-0 border-2 border-purple-500 bg-gradient-to-tl from-black to-slate-900 p-4 lg:pt-48">
+            <div className="flex flex-col lg:flex-row justify-center lg:justify-end gap-12 items-center lg:m-2 p-5 ">
               <h2
                 className={`text-center lg:text.left text-3xl lg:text-4xl font-sansita lg:ml-10 ${styles.titulo}`}
               >
@@ -130,14 +130,14 @@ const TimeLine = () => {
         </div>
 
         {/* Línea de tiempo  */}
-        <div className="hidden md:flex items-center">
+        <div className="hidden lg:flex items-center">
           <div
             className={`relative h-full border border-purple-600 ${styles.shadow}`}
           ></div>
         </div>
 
         {/* lado derecho */}
-        <div className="flex flex-col gap-6 md:gap-0 mt-3 md:mt-0">
+        <div className="flex flex-col gap-10 lg:gap-0 mt-3 lg:mt-0">
 
             {/* TasKiFy */}
           <div className=" lg:border-0 border-2 border-purple-500 bg-gradient-to-br from-black to-slate-900 p-4">
@@ -183,7 +183,7 @@ const TimeLine = () => {
           {/* end of TasKiFy */}
 
           {/* TasksApp */}
-          <div className="lg:border-0 border-2 border-purple-500 bg-gradient-to-br from-black to-slate-900 p-4 md:pt-32">
+          <div className="lg:border-0 border-2 border-purple-500 bg-gradient-to-br from-black to-slate-900 p-4 lg:pt-32">
             <div className="flex flex-col lg:flex-row justify-start gap-12 items-center lg:m-2 p-5 w-full">
               <div className="border border-white w-48 h-1/6 relative hidden lg:block"></div>
               <h2
@@ -228,7 +228,7 @@ const TimeLine = () => {
           {/* end of TasksApp */}
 
           {/* CountriesApp */}
-          <div className="lg:border-0 border-2 border-purple-500 bg-gradient-to-bl from-black to-slate-900 p-4 md:pt-40">
+          <div className="lg:border-0 border-2 border-purple-500 bg-gradient-to-bl from-black to-slate-900 p-4 lg:pt-40">
             <div className="flex flex-col lg:flex-row justify-start gap-12 items-center lg:m-2 p-5 w-full">
               <div className="border border-white w-40 h-1/6 relative hidden lg:block"></div>
               <h2
